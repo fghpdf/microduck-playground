@@ -1,0 +1,18 @@
+.venv/
+data/
+web/node_modules/
+web/dist/
+web/coverage/
+web/test-results/
+web/tsconfig.tsbuildinfo
+__pycache__/
+.pytest_cache/
+.coverage
+
+# Local settings and generated sessions
+.DS_Store
+.env
+.env.*
+!.env.example
+*.ses
+web/playwright-report/
